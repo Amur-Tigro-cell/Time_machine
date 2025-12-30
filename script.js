@@ -1,6 +1,6 @@
 // Funny lines and meme images
 const funnyLines = [
-    "💥 ২০২৬ এ তোহ দুনিয়া ধ্বংস ! ‍🙆‍♂👽"
+    " 2026 mein to duniya khatam ho jaegee.! ‍🙆‍♂👽"
 ];
 
 const memeImages = [
@@ -40,11 +40,11 @@ function activateMachine() {
     body.classList.add("shake");
     body.classList.add("flash");
 
-    // Animate "সময় গণনা হচ্ছে..."
+    // Animate "সময় গণনা হচ্ছে..."
     let dots = 0;
     const interval = setInterval(() => {
         dots = (dots + 1) % 4;
-        countingText.innerHTML = "⏳ সময় গণনা হচ্ছে" + ".".repeat(dots);
+        countingText.innerHTML = "⏳ সময় গণনা হচ্ছে" + ".".repeat(dots);
     }, 500);
 
     // After suspense, show the final line with meme image
